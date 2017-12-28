@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="src" path="config"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_6_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/c3p0-0.9"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mvc_jackson-1.7.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mybatis_spring_1.2.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mybatis3.2.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mysql5.5_driver"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-3.2-persistence"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring3.2_aop"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring3.2_core"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring3.2_web"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

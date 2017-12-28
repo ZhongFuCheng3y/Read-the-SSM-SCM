@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.itcast.scm.dao.SupplierMapper" >
+  <resultMap id="supplierResultMap" type="cn.itcast.scm.entity.Supplier" >
+    <id column="sup_id" property="supId" jdbcType="INTEGER" />
+    <result column="sup_name" property="supName" jdbcType="VARCHAR" />
+    <result column="sup_linkman" property="supLinkman" jdbcType="VARCHAR" />
+    <result column="sup_phone" property="supPhone" jdbcType="VARCHAR" />
+    <result column="sup_address" property="supAddress" jdbcType="VARCHAR" />
+    <result column="sup_remark" property="supRemark" jdbcType="VARCHAR" />
+  </resultMap>
+  <insert id="insert" parameterType="Supplier" >
+  	insert into supplier (sup_name) values(#{supName})
+  </insert>
+ 
+</mapper>
